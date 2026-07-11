@@ -1,0 +1,25 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Variables
+*.tfvars
+*.tfvars.json
+
+# Environment
+.env
+
+# Terraform plan
+*.tfplan
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI config files
+.terraformrc
+terraform.rc
