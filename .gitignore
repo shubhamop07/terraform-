@@ -4,6 +4,9 @@
 *.tfstate.*
 crash.log
 
+# Keep lock file (recommended)
+!.terraform.lock.hcl
+
 # Variables
 *.tfvars
 *.tfvars.json
@@ -14,12 +17,12 @@ crash.log
 # Terraform plan
 *.tfplan
 
-# Ignore override files
+# Override files
 override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
 
-# Ignore CLI config files
+# CLI config
 .terraformrc
 terraform.rc
