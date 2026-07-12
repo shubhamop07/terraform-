@@ -16,7 +16,7 @@ variable "instance_type" {
   type = string
   validation  {
     condition = var.instance_type == "t3.micro" || var.instance_type == "t2.micro"
-    error_message = "Please select t3.micro or t3.large"
+    error_message = "Please select t3.micro or t2.micro"
   }
 
 }
